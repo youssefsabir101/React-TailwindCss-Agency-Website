@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("assets/ARLRDBD.ttf") format("truetype");
+}
+
+body{
+  font-family: Arial, Rounded MT Bold;
+}
+
+header{
+  z-index: 10001 !important;
+}
+
+
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body::-webkit-scrollbar-track {
+    background-color: #1e88e5;
+}
+body::-webkit-scrollbar-thumb {
+    background: #0d47a1;
+}
+
